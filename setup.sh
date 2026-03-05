@@ -133,13 +133,13 @@ fi
 #-------------------------------------------------------------------------------
 # 6. Настройка фаервола (UFW)
 #-------------------------------------------------------------------------------
-#log_info "Настройка UFW..."
-#
-#ufw --force enable
-#ufw allow "$SSH_PORT"/tcp comment 'SSH custom port'
-#ufw allow 80/tcp comment 'HTTP'
-#ufw allow 443/tcp comment 'HTTPS'
-#ufw --force reload
+log_info "Настройка UFW..."
+
+ufw --force enable
+ufw allow "$SSH_PORT"/tcp comment 'SSH custom port'
+ufw allow 80/tcp comment 'HTTP'
+ufw allow 443/tcp comment 'HTTPS'
+ufw --force reload
 
 #-------------------------------------------------------------------------------
 # 7. Запуск и автозагрузка сервисов
