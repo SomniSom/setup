@@ -1,7 +1,7 @@
 #!/bin/bash
 #===============================================================================
 # Базовый скрипт настройки Ubuntu-сервера
-# Запуск: sh -c "$(curl -fsSL https://raw.githubusercontent.com/USER/REPO/main/setup.sh)"
+# Запуск: sh -c "$(curl -fsSL https://raw.githubusercontent.com/SomniSom/setup/main/setup.sh)"
 # Требования: запуск от root, Ubuntu 20.04/22.04/24.04
 #===============================================================================
 
